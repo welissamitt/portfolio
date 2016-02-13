@@ -1,0 +1,13 @@
+extends ../templates/homepage
+
+block head
+  - var title = "Houston we've got a 404"
+  - var description = "Ahhhh, help! This is a 404 page. Google, why are you indexing this!?"
+  - var url = "/404" //- include the '/'
+
+block content
+  h1 Captain, we've got a 404.
+  h2 Ahhhhh, abandon ship!
+  p Or go back to the 
+    a(href="/") homepage
+    |.

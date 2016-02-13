@@ -1,0 +1,25 @@
+extends ../templates/homepage
+
+block head
+  - var title = "Your page title"
+  - var description = "Your page description."
+  - var url = "/" //- include the '/'
+
+block content
+  .pure-g
+    .pure-u-1.u-background-red
+      h1 This is a full width h1 section
+
+    .pure-u-1-3.u-background-red
+      p This is a 1/3 width p section. No stacking
+    .pure-u-1-3.u-background-green
+      p This is a 1/3 width p section. No stacking
+    .pure-u-1-3.u-background-blue
+      p This is a 1/3 width p section. No stacking
+
+    .pure-u-1.pure-u-md-1-3.u-background-red
+      p This is a 1/3 width p section. Yes stacking
+    .pure-u-1.pure-u-md-1-3.u-background-green
+      p This is a 1/3 width p section. Yes stacking
+    .pure-u-1.pure-u-md-1-3.u-background-blue
+      p This is a 1/3 width p section. Yes stacking
