@@ -126,3 +126,28 @@ h1 {
 p {
   font-family: 'Merriweather', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
+.pure-g {
+  background-color: #cf5c60;
+}
+.blue {
+  background-color: #2a94d6;
+}
+.green {
+  background-color: #4ab471;
+}
+.red {
+  background-color: #cf5c60;
+}
+.container {
+  max-width: 1080px;
+  display: block;
+  margin: 48px auto;
+}
+img {
+  max-width: 100%;
+}
+.about {
+  padding-right: 48px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
