@@ -1,0 +1,56 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "Rexy project"
+  - var description = "Things I did for Roxy."
+  - var url = "/projects/roxy" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          p THIS IS BEE PROJECT
+          br
+        .portfolio-navigation
+          .mobile
+            h4 mobile
+            svg(style="width:50px; height:4px;")
+              rect.purple(style="width: 50px; height:4px;")
+            p
+          .web
+            h4 web
+            svg(style="width:30px; height:4px;")
+              rect.green(style="width: 30px; height:4px;")
+            p
+          .uiux
+            h4 ui | ux
+            svg(style="width:40px; height:4px;")
+              rect.blue(style="width: 40px; height:4px;")
+            p
+          .interactive
+            h4 interactive
+            svg(style="width:75px; height:4px;")
+              rect.magenta(style="width: 75px; height:4px;")
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
+        h3 Bee Account
+        svg(style="width:100px; height:4px;")
+          rect.purple(style="width: 100px; height:4px;")
+        svg(style="width:100px; height:4px;")
+          rect.blue(style="width: 100px; height:4px;")
+        svg(style="width:100px; height:4px;")
+          rect.green(style="width: 100px; height:4px;")
+        svg(style="width:100px; height:4px;")
+          rect.magenta(style="width: 100px; height:4px;")
+        p An affordable alternative to big bank checking.
+        
+        img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
+        img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
+        img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
+        img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
