@@ -22,6 +22,10 @@ gulp.task('content', function(){
   gulp.src('source/content/*.jade')
     .pipe(jade({ pretty: true, locals: locals }))
     .pipe(gulp.dest('public'));
+
+  gulp.src('source/content/projects/*.jade')
+    .pipe(jade({ pretty: true, locals: locals }))
+    .pipe(gulp.dest('public/projects'));
 });
 
 
