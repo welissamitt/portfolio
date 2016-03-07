@@ -2,8 +2,84 @@
  drop your styles here
  */
 h1 {
-  font-family: font-header;
+  font-family: "capitolium-news-2", serif;
+  font-size: 48px;
+  width: 100%;
+  line-height: 42px;
+}
+h2 {
+  font-family: "capitolium-news-2", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+h3 {
+  font-family: "capitolium-news-2", serif;
+  font-size: 20px;
+  line-height: 2px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+h4 {
+  font-family: "museo-sans-condensed", sans-serif;
+  font-size: 16px;
+  line-height: 6px;
 }
 p {
-  font-family: font-body;
+  font-family: "museo-sans-condensed", sans-serif;
+  font-size: 16px;
+  padding-bottom: 12px;
+  padding-top: 4px;
+  line-height: 22px;
+}
+p .bold {
+  font-weight: bold;
+  font-family: "museo-sans-condensed", sans-serif;
+}
+.container {
+  max-width: 1080px;
+  display: block;
+  margin: 48px auto;
+}
+img {
+  max-width: 100%;
+  padding-bottom: 8px;
+}
+.about {
+  padding-right: 48px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.about header a {
+  color: #000;
+  text-decoration: none;
+}
+.project {
+  padding-right: 28px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+.project a {
+  text-decoration: none;
+  color: #000;
+}
+.featured-project a {
+  text-decoration: none;
+  color: #000;
+}
+rect {
+  rx: 2px;
+  ry: 2px;
+  align: top;
+}
+rect.blue {
+  fill: #49c4d4;
+}
+rect.magenta {
+  fill: #ed1a5d;
+}
+rect.purple {
+  fill: #bd50ca;
+}
+rect.green {
+  fill: #62be77;
 }
