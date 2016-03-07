@@ -2,33 +2,8 @@
  drop your styles here
  */
 h1 {
-  font-family: "capitolium-news-2", sans-serif;
+  font-family: font-header;
 }
 p {
   font-family: font-body;
-}
-.pure-g {
-  background-color: #f00;
-}
-.blue {
-  background-color: #00f;
-}
-.green {
-  background-color: #008000;
-}
-.red {
-  background-color: #f00;
-}
-.container {
-  max-width: 1080px;
-  display: block;
-  margin: 48px auto;
-}
-img {
-  max-width: 100%;
-}
-.about {
-  padding-right: 48px;
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
 }
