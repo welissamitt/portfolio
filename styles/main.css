@@ -174,11 +174,27 @@ img {
   text-decoration: none;
 }
 .project {
-  padding-right: 28px;
   padding-top: 32px;
   padding-bottom: 8px;
   -moz-box-sizing: border-box;
        box-sizing: border-box;
+  margin-left: -1px;
+  margin-right: -3px;
+}
+.project:nth-child(2),
+.project:nth-child(5) {
+  padding-right: 14px;
+  padding-left: 0;
+}
+.project:nth-child(3),
+.project:nth-child(6) {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+.project:nth-child(4),
+.project:nth-child(7) {
+  padding-right: 0;
+  padding-left: 7px;
 }
 .project a {
   text-decoration: none;
