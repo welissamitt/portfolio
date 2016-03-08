@@ -58,6 +58,8 @@ img {
   padding-right: 28px;
   padding-top: 32px;
   padding-bottom: 8px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
 }
 .project a {
   text-decoration: none;
@@ -66,6 +68,11 @@ img {
 .featured-project a {
   text-decoration: none;
   color: #000;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 rect {
   rx: 2px;
