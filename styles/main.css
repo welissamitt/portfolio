@@ -196,6 +196,12 @@ img {
   padding-right: 0;
   padding-left: 7px;
 }
+@media screen and (min-width: 568px) {
+  .project {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+  }
+}
 .project a {
   text-decoration: none;
   color: #000;
