@@ -83,6 +83,12 @@ img {
     padding-left: 7px !important;
   }
 }
+@media screen and (max-width: 568px) {
+  .project {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
 .project a {
   text-decoration: none;
   color: #000;
