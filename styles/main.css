@@ -158,6 +158,7 @@ p .bold {
   max-width: 1080px;
   display: block;
   margin: 48px auto;
+  padding: 0 30px;
 }
 img {
   max-width: 100%;
