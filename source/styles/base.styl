@@ -57,10 +57,33 @@ img
       text-decoration: none
 
 .project
-  padding-right: 28px
+  // padding-right: 28px
   padding-top: 32px
   padding-bottom: 8px
   box-sizing: border-box
+  margin-left: -1px
+  margin-right: -3px
+
+  // item 1 and 4
+  &:nth-child(2),
+  &:nth-child(5)
+    padding-right: 14px
+    padding-left: 0
+
+  // item 1 and 4
+  &:nth-child(3),
+  &:nth-child(6)
+    padding-right: 7px
+    padding-left: 7px
+
+  // item 1 and 4
+  &:nth-child(4),
+  &:nth-child(7)
+    padding-right: 0
+    padding-left: 7px
+
+
+
 
   a
     text-decoration: none
