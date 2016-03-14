@@ -44,6 +44,16 @@ p .bold {
 .portfolio-navigation {
   padding-bottom: 30px;
 }
+.fixed-container {
+  position: fixed;
+  max-width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .fixed-container {
+    position: inherit;
+    max-width: inherit;
+  }
+}
 img {
   max-width: 100%;
   padding-bottom: 8px;
