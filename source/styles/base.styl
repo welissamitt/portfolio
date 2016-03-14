@@ -45,6 +45,16 @@ p
 
 .portfolio-navigation
   padding-bottom: 30px
+  
+.fixed-container
+  position: fixed
+  max-width: 20%
+
+@media screen and (max-width: 768px)
+  .fixed-container
+    position: inherit
+    max-width: inherit
+  
 
 img
   max-width: 100%
@@ -92,10 +102,6 @@ img
   @media screen and (max-width: 568px)
     padding-right: 0 !important
     padding-left: 0 !important
-
-
-
-
 
   a
     text-decoration: none
