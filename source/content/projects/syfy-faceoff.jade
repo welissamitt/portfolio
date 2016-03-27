@@ -1,0 +1,42 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "SyFy Faceoff project | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/syfy-faceoff" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Syfy - Face Off
+          p
+            span.bold Employer:   
+            | Clickfire Media
+            br
+            span.bold Role:  
+            | Design, ui/ux
+          p The goal of the app was to create an interactive environment where fans could see the step-by-step process of how the make-up artists created some of their characters. In addition, the 'Monster Me' feature allowed fans to upload a photo of themselves and see how they'd look with all of the makeup applied.
+          p Basic direction was given from the client. Wireframes were created, and then visual design followed. 
+          br
+        .portfolio-navigation
+          .uiux
+            h4 ui | ux
+            svg(style="width:40px; height:3px;")
+              rect.blue(style="width: 40px; height:3px;")
+            p
+          .interactive
+            h4 interactive
+            svg(style="width:75px; height:3px;")
+              rect.magenta(style="width: 75px; height:3px;")
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        img(src="/images/faceoff-main.jpg")        
+        img(src="/images/faceoff-interface1.jpg")
+        img(src="/images/faceoff-interface2.jpg")
+        img(src="/images/faceoff-interface3.jpg")

@@ -1,0 +1,48 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "Promax project | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/promax" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Promax BDA 2014 Conference
+          p
+            span.bold Employer:   
+            | Clickfire Media
+            br
+            span.bold Role:  
+            | Design, ui/ux
+          p Mobile app containing informaiton and schedule for the 2014 
+            a(href="https://www.promaxbda.org/") Promax BDA conference. 
+          p In this project I was given wireframes for the app and the conference styleguide as reference. The result was an interactive guide for Promax BDA 2014 attendees.
+          br
+        .portfolio-navigation
+          .mobile
+            h4 mobile
+            svg(style="width:50px; height:3px;")
+              rect.purple(style="width: 50px; height:3px;")
+            p
+          .uiux
+            h4 ui | ux
+            svg(style="width:40px; height:3px;")
+              rect.blue(style="width: 40px; height:3px;")
+            p
+          .interactive
+            h4 interactive
+            svg(style="width:75px; height:3px;")
+              rect.magenta(style="width: 75px; height:3px;")
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        img(src="/images/wtf-1118x500_slideshow.jpg")        
+        img(src="/images/WTF-01.jpg")
+        img(src="/images/WTF-02.jpg")
+        img(src="/images/WTF-03.jpg")

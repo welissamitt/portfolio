@@ -1,0 +1,48 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "Roxy project | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/roxy" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Roxy - Dare Yourself
+          p
+            span.bold Employer:   
+            | Clickfire Media
+            br
+            span.bold Role:  
+            | Design, ui/ux
+          p The #Dare Yourself campaign was created, inviting young women around the world between the ages of 18-28 to submit photo and video content answering why they should be the new face of Roxy using the call-to-action #roxydares. 
+          p Using the wireframes created by our team, the visual design then captured what it means to be a Roxy girl, and provided a platform to share what being a Roxy girl is all about!
+          br
+        .portfolio-navigation
+            p
+          .uiux
+            h4 ui | ux
+            svg(style="width:40px; height:3px;")
+              rect.blue(style="width: 40px; height:3px;")
+            p
+          .interactive
+            h4 interactive
+            svg(style="width:75px; height:3px;")
+              rect.magenta(style="width: 75px; height:3px;")
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        img(src="/images/roxy-1.jpg")
+        p CTA video page | Contestant video submission | Roxy Dare gallery
+        br
+        img(src="/images/roxy-2.jpg")
+        p Roxy girls aroudn the world | Roxy submission gallery | How to submit
+        br
+        img(src="/images/roxy-3.jpg")
+        p Dare Yourself contest rules overview | Contest timeline | Contest music choices
+        br

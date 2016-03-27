@@ -3,7 +3,136 @@
  */
 
 h1
-  font-family: font-header
+  font-family: "capitolium-news-2",serif;
+  font-size: 48px;
+  width: 100%;
+  line-height: 42px
+
+h2
+  font-family: "capitolium-news-2",serif;
+  font-style: italic;
+  font-size: 20px
+
+h3
+  font-family: "capitolium-news-2",serif;
+  font-size: 20px;
+  line-height: 2px;
+  padding-top: 8px;
+  padding-bottom: 11px
+
+h4
+  font-family: "museo-sans-condensed", sans-serif;
+  font-size: 16px
+  line-height: 6px
 
 p
-  font-family: font-body
+  font-family: "museo-sans-condensed", sans-serif;
+  font-size: 16px
+  padding-bottom: 12px
+  padding-top: 4px
+  line-height: 22px
+
+  .bold
+    font-weight: bold
+    font-family: "museo-sans-condensed", sans-serif;
+
+
+.container
+  max-width: 1080px
+  display: block
+  margin: 48px auto
+  padding: 0 30px
+
+.portfolio-navigation
+  padding-bottom: 30px
+  
+.fixed-container
+  position: fixed
+  max-width: 20%
+
+@media screen and (max-width: 768px)
+  .fixed-container
+    position: inherit
+    max-width: inherit
+  
+
+img
+  max-width: 100%
+  padding-bottom: 8px
+
+.about
+  padding-right: 48px
+  box-sizing: border-box
+
+.project
+  // padding-right: 28px
+  padding-top: 32px
+  padding-bottom: 8px
+  box-sizing: border-box
+  margin-left: -1px
+  margin-right: -3px
+
+  // item 1 and 4
+  &:nth-child(2),
+  &:nth-child(5)
+    padding-right: 14px
+    padding-left: 0
+
+  // item 2 and 5
+  &:nth-child(3),
+  &:nth-child(6)
+    padding-right: 7px
+    padding-left: 7px
+
+  // item 3 and 6
+  &:nth-child(4),
+  &:nth-child(7)
+    padding-right: 0
+    padding-left: 7px
+
+  @media screen and (min-width: 568px)
+    padding-right: 7px !important
+    padding-left: 7px !important
+
+  @media screen and (max-width: 568px)
+    padding-right: 0 !important
+    padding-left: 0 !important
+
+  a
+    text-decoration: none
+    color: black
+
+.featured-project
+  a
+    text-decoration: none
+    color: black
+
+.truncate
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
+
+rect
+  rx: 2px
+  ry: 2px
+  align: top
+
+  &.blue
+    fill: #49c4d4
+
+  &.magenta
+    fill: #ed1a5d
+
+  &.purple
+    fill: #bd50ca
+
+  &.green
+    fill: #62be77
+    
+a
+  color: #49c4d4
+  text-decoration: none
+
+header > a
+  color: black
+

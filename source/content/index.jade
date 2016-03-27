@@ -1,25 +1,107 @@
 extends ../templates/homepage
 
 block head
-  - var title = "Your page title"
-  - var description = "Your page description."
+  - var title = "Melissa Witt portfolio"
+  // - var description = "Your page description."
   - var url = "/" //- include the '/'
 
 block content
-  .pure-g
-    .pure-u-1.u-background-red
-      h1 This is a full width h1 section
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        .fixed-container
+          header
+            h1 Melissa Witt
+            h2 ... and a portfolio
+            br
+            p Welcome! Have a look around and stay a while. I'm a designer based in NYC who also gets dirty with code.
+            p Drop me a line at 
+              a(href="mailto:melissa.witt.design@gmail.com") melissa.witt.design@gmail.com
+            br
+          .portfolio-navigation
+            .mobile
+              h4 mobile
+              svg(style="width:50px; height:3px;")
+                rect.purple(style="width: 50px; height:3px;")
+              p
+            .web
+              h4 web
+              svg(style="width:30px; height:3px;")
+                rect.green(style="width: 30px; height:3px;")
+              p
+            .uiux
+              h4 ui | ux
+              svg(style="width:40px; height:3px;")
+                rect.blue(style="width: 40px; height:3px;")
+              p
+            .interactive
+              h4 interactive
+              svg(style="width:75px; height:3px;")
+                rect.magenta(style="width: 75px; height:3px;")
 
-    .pure-u-1-3.u-background-red
-      p This is a 1/3 width p section. No stacking
-    .pure-u-1-3.u-background-green
-      p This is a 1/3 width p section. No stacking
-    .pure-u-1-3.u-background-blue
-      p This is a 1/3 width p section. No stacking
-
-    .pure-u-1.pure-u-md-1-3.u-background-red
-      p This is a 1/3 width p section. Yes stacking
-    .pure-u-1.pure-u-md-1-3.u-background-green
-      p This is a 1/3 width p section. Yes stacking
-    .pure-u-1.pure-u-md-1-3.u-background-blue
-      p This is a 1/3 width p section. Yes stacking
+      .projects.pure-u-1.pure-u-md-17-24
+        .featured-project
+          a(href="/projects/bee")
+            img(src="/images/melissawitt-portfolio-site-hero-bee-account.png")
+            h3.truncate Bee Account
+            svg(style="width:100px; height:3px;")
+              rect.purple(style="width: 100px; height:3px;")
+            svg(style="width:100px; height:3px;")
+              rect.blue(style="width: 100px; height:3px;")
+            svg(style="width:100px; height:3px;")
+              rect.green(style="width: 100px; height:3px;")
+            svg(style="width:100px; height:3px;")
+              rect.magenta(style="width: 100px; height:3px;")
+            p An affordable alternative to a big bank checking account.
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/roxy")
+            img(src="images/roxy-project.jpg")
+            h3.truncate Roxy
+            svg(style="width:45px; height:3px;")
+              rect.magenta(style="width: 45px; height:3px;")
+            svg(style="width:45px; height:3px;")
+              rect.blue(style="width: 45px; height:3px;")
+            p Roxy #DareYourself Facebook campaign. 
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/costa-rica")
+            img(src="images/costa-rica-title.jpg")
+            h3.truncate Go Costa Rica
+            svg(style="width:45px; height:3px;")
+              rect.magenta(style="width: 45px; height:3px;")
+            p Interactive map design highlighting popular areas to travel in Costa Rica.
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/promax")
+            img(src="images/promax-bda-2014-title.jpg")
+            h3.truncate Promax BDA 2014
+            svg(style="width:45px; height:3px;")
+              rect.blue(style="width: 45px; height:3px;")
+            svg(style="width:45px; height:3px;")
+              rect.purple(style="width: 45px; height:3px;")
+            p Mobile app for utilization at the Promax BDA 2014 conference. 
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/syfy-delta")
+            img(src="images/delta-syfy-title.jpg")
+            h3.truncate SyFy + Delta
+            svg(style="width:45px; height:3px;")
+              rect.green(style="width: 45px; height:3px;")
+            svg(style="width:45px; height:3px;")
+              rect.blue(style="width: 45px; height:3px;")
+            p Microsite for SyFy & Delta partnership for their #MomentsOfImagination campaign.
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/syfy-faceoff")
+            img(src="images/syfy-showing-face-title.jpg")
+            h3.truncate SyFy: Showing Face
+            svg(style="width:45px; height:3px;")
+              rect.magenta(style="width: 45px; height:3px;")
+            svg(style="width:45px; height:3px;")
+              rect.blue(style="width: 45px; height:3px;")
+            p Interactive app for fans to discover how artists created their favorite characters.
+        .project.pure-u-1.pure-u-md-8-24.pure-u-sm-12-24
+          a(href="/projects/clorox")
+            img(src="images/clorox-title.jpg")
+            h3.truncate Clorox 100yr
+            svg(style="width:45px; height:3px;")
+              rect.purple(style="width: 45px; height:3px;")
+            svg(style="width:45px; height:3px;")
+              rect.blue(style="width: 45px; height:3px;")
+            p Mobile game to celebrate 100 years of Clorox.

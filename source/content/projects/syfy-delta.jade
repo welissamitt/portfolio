@@ -1,0 +1,48 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "SyFy Delta project | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/syfy-delta" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Syfy + Delta
+          p
+            span.bold Employer:   
+            | Clickfire Media
+            br
+            span.bold Role:  
+            | Design, ui/ux
+          p Syfy with their partner Delta needed a microsite for their Moments of Imagination campaign. The site hosted a gallery of user-submitted images, and a platform for users to submit their own images.
+          p I designed this microsite utilizing wireframes from the client, and assets from the TV spot.  
+          br
+        .portfolio-navigation
+          .web
+            h4 web
+            svg(style="width:30px; height:3px;")
+              rect.green(style="width: 30px; height:3px;")
+            p
+          .uiux
+            h4 ui | ux
+            svg(style="width:40px; height:3px;")
+              rect.blue(style="width: 40px; height:3px;")
+            p
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        h3 #MomentsofImagination
+        p Stills from the Moments of Imagination microsite design.
+        
+        img(src="/images/delta-syfy1.jpg")
+        img(src="/images/delta-syfy2.jpg")
+        img(src="/images/delta-syfy3.jpg")
+        img(src="/images/delta-syfy4.jpg")
+        img(src="/images/delta-syfy5.jpg")
+        img(src="/images/delta-syfy6.jpg")

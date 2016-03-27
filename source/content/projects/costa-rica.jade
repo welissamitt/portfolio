@@ -1,0 +1,44 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "Costa Rica project | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/costa-rica" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Go Costa Rica
+          p
+            span.bold Employer:   
+            | Clickfire Media
+            br
+            span.bold Role:  
+            | Design
+          p We needed to produce a realistic map showcasing Costa Rica's popular tourist attractions and lush, beautiful landscape. 
+          p Popular landmarks' scale was exagerrated to provide better details on the map. Users of the app can choose a landmark to get a closer look as well as a detailed description.
+          p This project combines photos from the client with detailed matte painting.
+          a(href="https://itunes.apple.com/us/app/gocostarica/id687797229?mt=8")
+            p(style="color: #49c4d4") Checkout the app for free
+          br
+        .portfolio-navigation
+          .interactive
+            h4 interactive
+            svg(style="width:75px; height:3px;")
+              rect.magenta(style="width: 75px; height:3px;")
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        img(src="/images/cr-ipad.jpg")
+        p Go Costa Rica app availavle for iOS
+        
+        img(src="/images/cr-1180x663_CR.jpg")
+        img(src="/images/cr-1180x663_CRzoom1.jpg")
+        img(src="/images/cr-1180x663_CRzoom2.jpg")
+        img(src="/images/cr-1180x663_CRzoom3.jpg")
+        img(src="/images/cr-1180x663_CRzoom4.jpg")
