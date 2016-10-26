@@ -1,6 +1,11 @@
 OuiSite
 =============
 
+## Dev process
+- First you need to start your server by running `npm run start`
+- Next you need to run gulp to monitor any changes you make to your files. Do this by running `gulp watch`
+- When you're ready to deploy, run `npm run deploy` 
+
 
 ## Structure and Build Process
 - Static site hosted on GitHub pages
