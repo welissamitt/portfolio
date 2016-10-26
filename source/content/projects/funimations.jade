@@ -1,0 +1,34 @@
+extends ../../templates/homepage
+
+block head
+  - var title = "Funimations | Melissa Witt"
+  //- - var description = ""
+  - var url = "/projects/funimations" //- include the '/'
+
+block content
+  .container
+    .pure-g
+      .about.pure-u-1.pure-u-md-7-24
+        header
+          a(href="/")
+            h1 Melissa Witt
+            h2 ... and a portfolio
+          br
+          h3 Funimations
+          p
+            span.bold Employer:   
+            | Myself
+            br
+            span.bold Role:  
+            | Design and animation
+          p Quick logo animations = FUN 
+          br
+          
+      .projects.pure-u-1.pure-u-md-17-24
+        video(width="512" height="392" controls)
+          source(src="/images/mcgarry-media.mp4" type="video/mp4")
+        p Intro animation for a Media/News/Publishing company in Atlanta, GA
+        p
+        video(width="640" height="360" controls loop="true")
+          source(src="/images/whatv.mp4" type="video/mp4")
+        p For television network WhatTV
