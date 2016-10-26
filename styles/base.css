@@ -17,7 +17,7 @@ h3 {
   font-size: 20px;
   line-height: 2px;
   padding-top: 8px;
-  padding-bottom: 8px;
+  padding-bottom: 11px;
 }
 h4 {
   font-family: "museo-sans-condensed", sans-serif;
@@ -62,10 +62,6 @@ img {
   padding-right: 48px;
   -moz-box-sizing: border-box;
        box-sizing: border-box;
-}
-.about header a {
-  color: #000;
-  text-decoration: none;
 }
 .project {
   padding-top: 32px;
@@ -131,4 +127,11 @@ rect.purple {
 }
 rect.green {
   fill: #62be77;
+}
+a {
+  color: #49c4d4;
+  text-decoration: none;
+}
+header > a {
+  color: #000;
 }
