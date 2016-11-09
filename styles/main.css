@@ -164,8 +164,9 @@ p .bold {
   padding-bottom: 30px;
 }
 .fixed-container {
+  padding: inherit;
   position: fixed;
-  max-width: 20%;
+  width: 20%;
 }
 @media screen and (max-width: 768px) {
   .fixed-container {
