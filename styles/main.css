@@ -163,10 +163,11 @@ p .bold {
 .portfolio-navigation {
   padding-bottom: 30px;
 }
-.fixed-container {
+.portfolio-navigation .fixed-container {
   padding: inherit;
   position: fixed;
-  width: 20%;
+  width: inherit;
+  max-width: 400px;
 }
 @media screen and (max-width: 768px) {
   .fixed-container {
